@@ -22,7 +22,7 @@ class QiniuStorageServiceProvider extends ServiceProvider
                 $config['bucket'],
                 $config['domain']
             );
-            return new FilesystemAdapter(new Filesystem($adapter), $adapter);
+            return new FilesystemAdapter(new Filesystem($adapter), $adapter, $config);
         });
     }
 
