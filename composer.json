@@ -1,6 +1,6 @@
 {
     "name": "luscio/laravel-filesystem-qiniu",
-    "description": "A Oss storage filesystem for Laravel.",
+    "description": "A Qiniu storage filesystem for Laravel.",
     "license": "MIT",
     "autoload": {
         "psr-4": {
